@@ -1,26 +1,26 @@
 <roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Folder" referent="RBXAE0BACE7C85A4F1191A728CA3331BFE9">
+	<Item class="Folder" referent="RBX8758D7C7C522427DB3CCBDD409E41E6F">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">ObjectBrowser.prc</string>
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="Folder" referent="RBX3FA05693CC7E4B70891D688EBB9A277E">
+		<Item class="Folder" referent="RBX8D26945DD62B4DD3B034922621C24058">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<string name="Name">Components</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="ModuleScript" referent="RBX8268B16C23D24F6A82546D96C655BB6B">
+			<Item class="ModuleScript" referent="RBX1981EB74FFA745C89FBD6CE5EEB1DF55">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">DeletableTextBox</string>
-					<string name="ScriptGuid">{A5FAD358-B1B0-4A63-89C1-572DEF0B0702}</string>
+					<string name="ScriptGuid">{F8D9AE73-F856-4E85-BD5C-54DE42F9F327}</string>
 					<ProtectedString name="Source"><![CDATA[local bin = script.Parent.Parent
 local ThemeManager = require(bin.Modules.ThemeManager)
 
@@ -60,12 +60,12 @@ end]]></ProtectedString>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX5ED50FC9502948FB88AFD7CAA284A2B1">
+			<Item class="ModuleScript" referent="RBXD3ADDFBE0E9840E5865EA387C6DE505B">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">ListBox</string>
-					<string name="ScriptGuid">{F6A1572B-0F69-4305-A122-9D4F16DA435B}</string>
+					<string name="ScriptGuid">{3F773256-6627-4251-AA75-B6E4294F6F9C}</string>
 					<ProtectedString name="Source"><![CDATA[local bin = script.Parent.Parent
 local ThemeManager = require(bin.Modules.ThemeManager)
 
@@ -100,12 +100,12 @@ end]]></ProtectedString>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX3E5D67086B714C2C9797F00A1EA0AD63">
+			<Item class="ModuleScript" referent="RBX9C23A8D0549B439195738B1F5C38C539">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">ListBoxItem</string>
-					<string name="ScriptGuid">{02AB8072-EF60-41F3-A8CE-FFE8BC818184}</string>
+					<string name="ScriptGuid">{37CCBB6B-440B-4FAC-A2A7-519EA02E517F}</string>
 					<ProtectedString name="Source"><![CDATA[local StudioService = game:GetService("StudioService")
 local TextService = game:GetService("TextService")
 
@@ -177,7 +177,7 @@ end]]></ProtectedString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Frame" referent="RBX27D87FF11FE04BAB977E9C1ACBB55E6E">
+				<Item class="Frame" referent="RBXD2E2517401F44B158DB5ABC443A6FCFB">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -231,7 +231,7 @@ end]]></ProtectedString>
 						<bool name="Visible">true</bool>
 						<int name="ZIndex">1</int>
 					</Properties>
-					<Item class="ImageLabel" referent="RBX0320EA23D1CA477BB6594C67A963FDBE">
+					<Item class="ImageLabel" referent="RBX63D14B3BED614516A2A037B263606FD4">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -318,7 +318,7 @@ end]]></ProtectedString>
 							<int name="ZIndex">1</int>
 						</Properties>
 					</Item>
-					<Item class="ImageButton" referent="RBX59EBB8F072434731B909241DB9C41B9C">
+					<Item class="ImageButton" referent="RBXD7DDDE64BCDA4EB682E93089E0401F3E">
 						<Properties>
 							<bool name="Active">true</bool>
 							<Vector2 name="AnchorPoint">
@@ -411,7 +411,7 @@ end]]></ProtectedString>
 							<int name="ZIndex">2</int>
 						</Properties>
 					</Item>
-					<Item class="Frame" referent="RBXC106773183AF4C5680BBFA601C5B6EC3">
+					<Item class="Frame" referent="RBXC011DF77E9D44AE5A3B3434973389359">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -465,7 +465,7 @@ end]]></ProtectedString>
 							<bool name="Visible">true</bool>
 							<int name="ZIndex">1</int>
 						</Properties>
-						<Item class="TextLabel" referent="RBX7FBF8CD179934EA58FC813EAB6355D90">
+						<Item class="TextLabel" referent="RBX17BC7929993B4D40B1E7549688709428">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -544,12 +544,12 @@ end]]></ProtectedString>
 					</Item>
 				</Item>
 			</Item>
-			<Item class="ModuleScript" referent="RBX64E56B82D35F48B98D8E44A3707983F0">
+			<Item class="ModuleScript" referent="RBX721FF7FE12F04C319D085F8CC026B02B">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">BackgroundLabel</string>
-					<string name="ScriptGuid">{67E6AE58-A4DA-441D-AC10-8D0E1E0E6784}</string>
+					<string name="ScriptGuid">{80871B7C-BFE9-45C6-BA02-E2D34A953AAA}</string>
 					<ProtectedString name="Source"><![CDATA[local item = script.ListItem
 
 local bin = script.Parent.Parent
@@ -571,7 +571,7 @@ end]]></ProtectedString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Frame" referent="RBXB538C3B361654D92A858FE86C0478C0F">
+				<Item class="Frame" referent="RBX5E0058E085C346B7BD6CDDDA2A3172BC">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -625,7 +625,7 @@ end]]></ProtectedString>
 						<bool name="Visible">true</bool>
 						<int name="ZIndex">1</int>
 					</Properties>
-					<Item class="Frame" referent="RBXD9792EAD111B46029BCD11AE02F319D5">
+					<Item class="Frame" referent="RBXE113B6E4C93A4F9BA593CF5E531702FA">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -679,7 +679,7 @@ end]]></ProtectedString>
 							<bool name="Visible">true</bool>
 							<int name="ZIndex">1</int>
 						</Properties>
-						<Item class="TextLabel" referent="RBX4E941171D0514787A422AB7986F6E98D">
+						<Item class="TextLabel" referent="RBX5F4C53E60C9F47C4AFE442E7C97B193B">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -756,7 +756,7 @@ end]]></ProtectedString>
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Frame" referent="RBXCAA7C3FE39EA4FCD99E5DC4A5C1CC773">
+					<Item class="Frame" referent="RBX1B7F29346A734BE8ADF79E23810CF6E7">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -813,12 +813,12 @@ end]]></ProtectedString>
 					</Item>
 				</Item>
 			</Item>
-			<Item class="ModuleScript" referent="RBX2D9CF14DE5BE4DE2A9A0789C317F134E">
+			<Item class="ModuleScript" referent="RBX9BC2BE54A04D4394872254EC9B25B476">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">GenericLabel</string>
-					<string name="ScriptGuid">{EA57F6F5-FE71-4002-8802-1516C0E57244}</string>
+					<string name="ScriptGuid">{AB50CBAE-2B24-46AF-863B-95FAC5937D41}</string>
 					<ProtectedString name="Source"><![CDATA[local item = script.ListItem
 
 local bin = script.Parent.Parent
@@ -836,7 +836,7 @@ end]]></ProtectedString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Frame" referent="RBXA47C5C950A824BC19E04DC2D33A51C0A">
+				<Item class="Frame" referent="RBXB675C231D55E4C9780FDF637F34CFF00">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -890,7 +890,7 @@ end]]></ProtectedString>
 						<bool name="Visible">true</bool>
 						<int name="ZIndex">1</int>
 					</Properties>
-					<Item class="Frame" referent="RBX7623B87C5A4B475481E7FF54940A0B33">
+					<Item class="Frame" referent="RBX0ED880A027BB434EAA9045E3033538D4">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -944,7 +944,7 @@ end]]></ProtectedString>
 							<bool name="Visible">true</bool>
 							<int name="ZIndex">1</int>
 						</Properties>
-						<Item class="TextLabel" referent="RBX4A09F8F11E5445DBB17326A4F58F9526">
+						<Item class="TextLabel" referent="RBX524CABA89DB7493A8A1BCA72681FF8D0">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -1023,12 +1023,12 @@ end]]></ProtectedString>
 					</Item>
 				</Item>
 			</Item>
-			<Item class="ModuleScript" referent="RBXAD6CF99AFC104AC5B63FC0624A9891FA">
+			<Item class="ModuleScript" referent="RBXC0FF5B7C8EA94765A59D47B8797C3961">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">Table</string>
-					<string name="ScriptGuid">{B58E8622-F9A0-4222-ADCD-CF4950BE734C}</string>
+					<string name="ScriptGuid">{13E4015D-FC77-405E-B9CB-183405A2EE5C}</string>
 					<ProtectedString name="Source"><![CDATA[--Creates a key-value table
 local bin = script.Parent.Parent
 local ThemeManager = require(bin.Modules.ThemeManager)
@@ -1080,7 +1080,7 @@ end]]></ProtectedString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Frame" referent="RBX9C16B2A0840341BD9F23604DA41950AE">
+				<Item class="Frame" referent="RBX26E1D69400BF4AC98D89DF2068193EEC">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -1134,7 +1134,7 @@ end]]></ProtectedString>
 						<bool name="Visible">true</bool>
 						<int name="ZIndex">1</int>
 					</Properties>
-					<Item class="UIPadding" referent="RBX14B72576EE174E05A985C76AD8B01085">
+					<Item class="UIPadding" referent="RBX34371A15D83C4B63974C98EB0F38FA01">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<string name="Name">UIPadding</string>
@@ -1158,7 +1158,7 @@ end]]></ProtectedString>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="UIListLayout" referent="RBX5E13A97518F54007A08E54289945C851">
+					<Item class="UIListLayout" referent="RBXF2D4DB453FCB47199348D102FE2B97A3">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="FillDirection">1</token>
@@ -1175,7 +1175,7 @@ end]]></ProtectedString>
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Frame" referent="RBXFC41509835444AFCAA62912CE67E8642">
+				<Item class="Frame" referent="RBXD764EE4F138C4031A853EDCCFB1B9EA1">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -1229,7 +1229,7 @@ end]]></ProtectedString>
 						<bool name="Visible">true</bool>
 						<int name="ZIndex">1</int>
 					</Properties>
-					<Item class="Frame" referent="RBX76C46416A4524B7A9280147E31F9CCB8">
+					<Item class="Frame" referent="RBXA14E8AF9B3824644A5E1DAC11E43E7F5">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -1283,7 +1283,7 @@ end]]></ProtectedString>
 							<bool name="Visible">true</bool>
 							<int name="ZIndex">1</int>
 						</Properties>
-						<Item class="TextLabel" referent="RBX85AB86AFC21B4AB091FAD2905067B510">
+						<Item class="TextLabel" referent="RBXAC530B8CE5A140A0859289E1C454AFCE">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -1360,7 +1360,7 @@ end]]></ProtectedString>
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Frame" referent="RBXA8F23157DB1E499FB96250D94A95067A">
+					<Item class="Frame" referent="RBXBD9FCA39B4BC4727B857806F7ABFA6D8">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -1414,7 +1414,7 @@ end]]></ProtectedString>
 							<bool name="Visible">true</bool>
 							<int name="ZIndex">1</int>
 						</Properties>
-						<Item class="TextLabel" referent="RBXE8EF4650769E4DB98FAFD26D6586A216">
+						<Item class="TextLabel" referent="RBX33852EAD234B40FB84EC0C091F026250">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -1493,12 +1493,12 @@ end]]></ProtectedString>
 					</Item>
 				</Item>
 			</Item>
-			<Item class="ModuleScript" referent="RBXCB310DFAEFEF474180C95A1FDAADDE2C">
+			<Item class="ModuleScript" referent="RBX0AE2D5E3DABD4FE883BCC2B53770AC68">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">TitleBar</string>
-					<string name="ScriptGuid">{6739EF8C-C58B-4633-9B3A-4349AB68305F}</string>
+					<string name="ScriptGuid">{6F5E70FA-F2E0-4BB3-81A5-0FE960613462}</string>
 					<ProtectedString name="Source"><![CDATA[local bin = script.Parent.Parent
 local ThemeManager = require(bin.Modules.ThemeManager)
 
@@ -1514,12 +1514,12 @@ end]]></ProtectedString>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX10698965778D446FB1BE0B9B60163E7B">
+			<Item class="ModuleScript" referent="RBX30A6F47C20BC4D68A4B399A87D275C02">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">LinkButton</string>
-					<string name="ScriptGuid">{102737EF-C755-446E-9FB9-238F1E628EF6}</string>
+					<string name="ScriptGuid">{17588B0D-3144-45AB-A85A-275D5F14C0FD}</string>
 					<ProtectedString name="Source"><![CDATA[local bin = script.Parent.Parent
 local ThemeManager = require(bin.Modules.ThemeManager)
 
@@ -1534,26 +1534,30 @@ end]]></ProtectedString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Folder" referent="RBXFF3F4E4B79844E12A316526EF5DE4ADD">
+		<Item class="Folder" referent="RBX2B8B7EA6AFDC4C718447AF03971F8C68">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<string name="Name">bin</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="Script" referent="RBXFF1DE4AACFC94A31ACCD0D11926D41DB">
+			<Item class="Script" referent="RBX37AA700C7A9A4D30B106E480D4134523">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<bool name="Disabled">false</bool>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">main</string>
-					<string name="ScriptGuid">{4D52D20E-2B06-4AD9-B26E-E169D4E82E71}</string>
+					<string name="ScriptGuid">{A996626F-9658-4CE9-8253-523D2EAB89A2}</string>
 					<ProtectedString name="Source"><![CDATA[local bin = script.Parent.Parent
 local ThemeManager = require(bin.Modules.ThemeManager)
 local ConnectionWindow = script.ConnectionWindow
 local Dump = require(bin.Modules.ApiDump)
-
 local IsLocalPlugin = (plugin.Name:sub(1,4) == "user")
+
+local PLUGIN_CACHE_CLEAR_KEYS = {
+	"APIDumpTool-cache",
+	"APIDumpTool-cache-roblox"
+}
 
 local dwpi = DockWidgetPluginGuiInfo.new(
 	Enum.InitialDockState.Right,
@@ -1583,6 +1587,14 @@ else
 	btn = tbar:CreateButton("ObjectBrowserAction", "Opens the Object Browser", "rbxasset://textures/GameSettings/ToolbarIcon.png", "Object Browser")
 end
 
+local clearCacheButton = tbar:CreateButton("ClearCacheAction", "Clears the plugin storage cache", "rbxasset://textures/ui/CloseButton_dn.png", "Clear Cache")
+clearCacheButton.Click:Connect(function()
+	btn:SetActive(false)
+	Dump:ClearLocalCache()
+	
+	print("[Browser] Cache Cleared, will not take affect until the plugin/studio session is restarted.")
+end)
+
 btn.Click:Connect(function()
 	widget.Enabled = not widget.Enabled
 	btn:SetActive(false)
@@ -1591,7 +1603,7 @@ end)
 ConnectionWindow.Parent = widget
 local s, e 
 repeat
-	s, e = pcall(Dump, "roblox")
+	s, e = pcall(Dump.Get, Dump, "roblox")
 	
 	if not s then
 		ConnectionWindow.ConnectionWindow.Text = "Failed to download API Dump Information; " .. e .. ". Click to retry."
@@ -1611,7 +1623,7 @@ Pager:SetPage("SearchPage")
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Frame" referent="RBX1DE270C7DABC4ABEB057177A8EE0DF48">
+				<Item class="Frame" referent="RBX1D910558B45845A08932C35C9C7AF37E">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -1665,7 +1677,7 @@ Pager:SetPage("SearchPage")
 						<bool name="Visible">true</bool>
 						<int name="ZIndex">1</int>
 					</Properties>
-					<Item class="Frame" referent="RBXDEDE30F71F6048D5BF8526AEFF0EAB2D">
+					<Item class="Frame" referent="RBX86F994B5A9474843818A668572E031AD">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -1720,7 +1732,7 @@ Pager:SetPage("SearchPage")
 							<int name="ZIndex">1</int>
 						</Properties>
 					</Item>
-					<Item class="TextLabel" referent="RBX0F9CBF4C44E842F78C5825566A0ECF47">
+					<Item class="TextLabel" referent="RBXDF7630D6493241B2B2ECDF2FA02327E2">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -1796,7 +1808,7 @@ Pager:SetPage("SearchPage")
 							<int name="ZIndex">2</int>
 						</Properties>
 					</Item>
-					<Item class="ImageButton" referent="RBX8B5598B40CE94EB083D1815F397526B0">
+					<Item class="ImageButton" referent="RBX7B3BB3F35C934F8B8F5C0FFA6C89AE42">
 						<Properties>
 							<bool name="Active">true</bool>
 							<Vector2 name="AnchorPoint">
@@ -1892,19 +1904,19 @@ Pager:SetPage("SearchPage")
 				</Item>
 			</Item>
 		</Item>
-		<Item class="Folder" referent="RBX7F8124D326224029B74CB1311144DE1B">
+		<Item class="Folder" referent="RBX67818C9E62E14BA58148EDDE1D1FAB6A">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<string name="Name">Modules</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="ModuleScript" referent="RBX34BDCC687F234AF49AB1CE7CE2174DC8">
+			<Item class="ModuleScript" referent="RBX2864B5F03E9C4ED9861D520618FAE179">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">ThemeManager</string>
-					<string name="ScriptGuid">{DA7CC163-27DD-4797-9365-8FF8CBEEF1A6}</string>
+					<string name="ScriptGuid">{B3733F21-763A-4D0F-93A1-B6247154A0DC}</string>
 					<ProtectedString name="Source"><![CDATA[--quick script to handle the changing of themes, dont worry, we handle cleanup for you
 
 local f = {}
@@ -1996,12 +2008,12 @@ return f]]></ProtectedString>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX4186B630801848F2A77AF820E62422C9">
+			<Item class="ModuleScript" referent="RBX5E4E933E615240039ABC88FB61DB53EF">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">Pager</string>
-					<string name="ScriptGuid">{5CEBAB9C-7D68-4E72-8583-51015896FE71}</string>
+					<string name="ScriptGuid">{15F0709C-DEC9-4D69-A04C-0005EB59E5A3}</string>
 					<ProtectedString name="Source"><![CDATA[--pager library
 local Pager = {
 	OpenPage = nil,
@@ -2034,27 +2046,29 @@ return Pager
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Folder" referent="RBX8CEC4164C606489D896B78369D8357AB">
+				<Item class="Folder" referent="RBX2C6BF38356A442EFB8E2F002D6EA022E">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<string name="Name">Pages</string>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
-					<Item class="ModuleScript" referent="RBX4A867312DC694C1BBB15B037470DFEDE">
+					<Item class="ModuleScript" referent="RBX9DE30D94A1EE4AF299783D8F2803C1A0">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<Content name="LinkedSource"><null></null></Content>
 							<string name="Name">SearchPage</string>
-							<string name="ScriptGuid">{DF694ED3-8F31-465B-B68D-69043FB74EFA}</string>
+							<string name="ScriptGuid">{E9BC086B-756E-4D2F-B0A6-B80D53470A4A}</string>
 							<ProtectedString name="Source"><![CDATA[local StudioService = game:GetService("StudioService")
 
 local bin = script.Parent.Parent.Parent.Parent
 
 local Pager
-local APIDump = require(bin.Modules.ApiDump)("roblox")
+local APIDump = require(bin.Modules.ApiDump):Get("roblox")
 local ExtraIcons = require(bin.Modules.ExtraObjectIcons)
 local History = require(bin.Modules.History)
+
+local instanceImage = StudioService:GetClassIcon("Instance")
 
 local DeletableTextBox = require(bin.Components.DeletableTextBox)
 local ListBox = require(bin.Components.ListBox)
@@ -2092,7 +2106,15 @@ DeletableTextBox(SearchBar)
 ListBox(Canvas)
 
 for _, v in pairs(APIDump.Classes) do
-	local image = StudioService:GetClassIcon(v.Name)
+	local s, image = pcall(
+		StudioService.GetClassIcon,
+		StudioService,
+		v.Name
+	)
+	
+	if not s then
+		image = instanceImage
+	end
 	
 	ListBoxItem(v, image, Canvas.Canvas, function()
 		History:Add(function()
@@ -2132,7 +2154,7 @@ end]]></ProtectedString>
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
-						<Item class="Frame" referent="RBX2D048E36976A4879A85479765DCC391E">
+						<Item class="Frame" referent="RBX6C0F0A976641458DB3021121B7909D4C">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -2186,7 +2208,7 @@ end]]></ProtectedString>
 								<bool name="Visible">true</bool>
 								<int name="ZIndex">1</int>
 							</Properties>
-							<Item class="Frame" referent="RBX8CE2C468715347FF90B23D1D0A9654B7">
+							<Item class="Frame" referent="RBXCEB8610742D8475EBC3360B514EC7BD2">
 								<Properties>
 									<bool name="Active">false</bool>
 									<Vector2 name="AnchorPoint">
@@ -2240,7 +2262,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="ScrollingFrame" referent="RBX67B7849226DD4B7C813C720A401A838A">
+								<Item class="ScrollingFrame" referent="RBX391A90BF7D6B4C16B41B6B1262A277C3">
 									<Properties>
 										<bool name="Active">true</bool>
 										<Vector2 name="AnchorPoint">
@@ -2320,7 +2342,7 @@ end]]></ProtectedString>
 										<bool name="Visible">true</bool>
 										<int name="ZIndex">2</int>
 									</Properties>
-									<Item class="UIListLayout" referent="RBX8291BE94937844B7A2463714BCFE47DE">
+									<Item class="UIListLayout" referent="RBX0F23772776F64F0598507CF77B65F89A">
 										<Properties>
 											<BinaryString name="AttributesSerialize"></BinaryString>
 											<token name="FillDirection">1</token>
@@ -2336,7 +2358,7 @@ end]]></ProtectedString>
 											<token name="VerticalAlignment">1</token>
 										</Properties>
 									</Item>
-									<Item class="UIPadding" referent="RBX1C9FB2445EF54CC5ABF5D2D16DC01BFF">
+									<Item class="UIPadding" referent="RBX4667305388BA42A9964A7AF94A474A2A">
 										<Properties>
 											<BinaryString name="AttributesSerialize"></BinaryString>
 											<string name="Name">UIPadding</string>
@@ -2361,7 +2383,7 @@ end]]></ProtectedString>
 										</Properties>
 									</Item>
 								</Item>
-								<Item class="Frame" referent="RBX970F67E35E704FA5A98483CF30421EA5">
+								<Item class="Frame" referent="RBX7BDE9951BA9D4980BCED2042E59490D3">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -2417,7 +2439,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="Frame" referent="RBX0970DA3947124ED4835EF007DC164AE1">
+							<Item class="Frame" referent="RBXFDECB4657D89425D950E4D19C4F77C42">
 								<Properties>
 									<bool name="Active">false</bool>
 									<Vector2 name="AnchorPoint">
@@ -2471,7 +2493,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="TextBox" referent="RBX86EE7E407DAF42BDA5DC8F41672B6885">
+								<Item class="TextBox" referent="RBX46F5E6E155654CE8A010A3CA0EA9946D">
 									<Properties>
 										<bool name="Active">true</bool>
 										<Vector2 name="AnchorPoint">
@@ -2557,7 +2579,7 @@ end]]></ProtectedString>
 										<int name="ZIndex">2</int>
 									</Properties>
 								</Item>
-								<Item class="ImageButton" referent="RBX372E65FB1C5A4A74A67DAF6524BF5F34">
+								<Item class="ImageButton" referent="RBX8854ADD016F146A9BA9C298B573588A3">
 									<Properties>
 										<bool name="Active">true</bool>
 										<Vector2 name="AnchorPoint">
@@ -2650,7 +2672,7 @@ end]]></ProtectedString>
 										<int name="ZIndex">3</int>
 									</Properties>
 								</Item>
-								<Item class="Frame" referent="RBX74D20EA1CA8F4DF494CAFC1ED6FE0502">
+								<Item class="Frame" referent="RBX19AF36F6EB1844BDB2E219C58ABA2C39">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -2708,19 +2730,19 @@ end]]></ProtectedString>
 							</Item>
 						</Item>
 					</Item>
-					<Item class="ModuleScript" referent="RBXB98D729792064580B86BFEE299D71BD8">
+					<Item class="ModuleScript" referent="RBX9F0798D7A6464DD08495A2D270DDC6A7">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<Content name="LinkedSource"><null></null></Content>
 							<string name="Name">InstanceDetails</string>
-							<string name="ScriptGuid">{BBBE7DCD-8792-4193-B269-5F6F6F96B7B5}</string>
+							<string name="ScriptGuid">{209514CF-E5AA-4394-8D8F-29795D1C806B}</string>
 							<ProtectedString name="Source"><![CDATA[local StudioService = game:GetService("StudioService")
 
 local bin = script.Parent.Parent.Parent.Parent
 local plugin = bin.Parent
 
 local Pager
-local APIDump = require(bin.Modules.ApiDump)("roblox")
+local APIDump = require(bin.Modules.ApiDump):Get("roblox")
 local Settings = require(bin.Modules.Settings)
 local History = require(bin.Modules.History)
 local ThemeManager = require(bin.Modules.ThemeManager)
@@ -2734,6 +2756,8 @@ local ListBoxItem = require(bin.Components.ListBoxItem)
 local BackgroundLabel = require(bin.Components.BackgroundLabel)
 local TitleBar = require(bin.Components.TitleBar)
 local LinkButton = require(bin.Components.LinkButton)
+
+local instanceImage = StudioService:GetClassIcon("Instance")
 
 local Gui = script.Details
 local MembersContainer = Gui.ListBoxContainer
@@ -2853,7 +2877,15 @@ function page.Open(args)
 		end
 		Gui.OnDevHubBanner.Link.Value = string.format(Settings.EnumLinkFormat, DATA.Name)
 	else
-		local image = StudioService:GetClassIcon(DATA.Name)
+		local s, image = pcall(
+			StudioService.GetClassIcon,
+			StudioService,
+			DATA.Name
+		)
+
+		if not s then
+			image = instanceImage
+		end
 		
 		listMembers(DATA.Name)
 		Gui.OnDevHubBanner.Link.Value = string.format(Settings.InstanceLinkFormat, DATA.Name)
@@ -2901,7 +2933,7 @@ end]]></ProtectedString>
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
-						<Item class="Frame" referent="RBX2BE1DCA4334E4DD5B7C848CD67EA272C">
+						<Item class="Frame" referent="RBX7200E4B42E2440088CBA4F5E37DDCA4A">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -2955,7 +2987,7 @@ end]]></ProtectedString>
 								<bool name="Visible">true</bool>
 								<int name="ZIndex">1</int>
 							</Properties>
-							<Item class="Frame" referent="RBX2DC6359F1F5A4183AB7BEB8D4D57FCA0">
+							<Item class="Frame" referent="RBXE32C0E37EDAA44E9B697919743B8044E">
 								<Properties>
 									<bool name="Active">false</bool>
 									<Vector2 name="AnchorPoint">
@@ -3009,7 +3041,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="TextBox" referent="RBX1AD65594DB4E4254B477D39F717533AB">
+								<Item class="TextBox" referent="RBX4230C7FB33774866B863E7DB626E633A">
 									<Properties>
 										<bool name="Active">true</bool>
 										<Vector2 name="AnchorPoint">
@@ -3095,7 +3127,7 @@ end]]></ProtectedString>
 										<int name="ZIndex">2</int>
 									</Properties>
 								</Item>
-								<Item class="ImageButton" referent="RBX6118B433AA8C4CAFBE76FC917C378EC8">
+								<Item class="ImageButton" referent="RBXE6F86950235547A9822DA55D974C15B5">
 									<Properties>
 										<bool name="Active">true</bool>
 										<Vector2 name="AnchorPoint">
@@ -3188,7 +3220,7 @@ end]]></ProtectedString>
 										<int name="ZIndex">3</int>
 									</Properties>
 								</Item>
-								<Item class="Frame" referent="RBX2AEB3E5B6C604D2FBF823AC781435C50">
+								<Item class="Frame" referent="RBXE978CD0EE6DF4D67BFBDFA8346FCD461">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -3244,7 +3276,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="UIListLayout" referent="RBX7105C801FB8A449AB3CD1BEC9CC8A2DB">
+							<Item class="UIListLayout" referent="RBXBA9FA2140F634A11BA7535BC98573A3A">
 								<Properties>
 									<BinaryString name="AttributesSerialize"></BinaryString>
 									<token name="FillDirection">1</token>
@@ -3260,7 +3292,7 @@ end]]></ProtectedString>
 									<token name="VerticalAlignment">1</token>
 								</Properties>
 							</Item>
-							<Item class="Frame" referent="RBXFB1ED5AD38124D4E8A94CE33B8A3A891">
+							<Item class="Frame" referent="RBX8C5E9980DC254BAEA1023C6C167C3415">
 								<Properties>
 									<bool name="Active">false</bool>
 									<Vector2 name="AnchorPoint">
@@ -3314,7 +3346,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">2</int>
 								</Properties>
-								<Item class="Frame" referent="RBX7A9DBBBAE79344CD977111C9A7F38799">
+								<Item class="Frame" referent="RBXCF83C102E88340AC9045DA98DD59E195">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -3368,7 +3400,7 @@ end]]></ProtectedString>
 										<bool name="Visible">true</bool>
 										<int name="ZIndex">1</int>
 									</Properties>
-									<Item class="UIListLayout" referent="RBXEDE80A758050489BABC07D2188146683">
+									<Item class="UIListLayout" referent="RBXAB2FD1A838EF4AFC8041924890C9457A">
 										<Properties>
 											<BinaryString name="AttributesSerialize"></BinaryString>
 											<token name="FillDirection">1</token>
@@ -3384,7 +3416,7 @@ end]]></ProtectedString>
 											<token name="VerticalAlignment">1</token>
 										</Properties>
 									</Item>
-									<Item class="UIPadding" referent="RBX55CDE4E79E724056A11D1CC180E46063">
+									<Item class="UIPadding" referent="RBX5AA245C3083944BB91B4F0391E004BC8">
 										<Properties>
 											<BinaryString name="AttributesSerialize"></BinaryString>
 											<string name="Name">UIPadding</string>
@@ -3410,7 +3442,7 @@ end]]></ProtectedString>
 									</Item>
 								</Item>
 							</Item>
-							<Item class="Frame" referent="RBX0597B8BCADA749B0963EF8446A11E6E4">
+							<Item class="Frame" referent="RBX8AF7CCC953714ACAA3B6D99026F695BD">
 								<Properties>
 									<bool name="Active">false</bool>
 									<Vector2 name="AnchorPoint">
@@ -3464,7 +3496,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="Frame" referent="RBX9A08DA2651884502A2DD439332354FE1">
+								<Item class="Frame" referent="RBX98D3E616270E45309F2C3C111B4BFA60">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -3518,7 +3550,7 @@ end]]></ProtectedString>
 										<bool name="Visible">true</bool>
 										<int name="ZIndex">1</int>
 									</Properties>
-									<Item class="ScrollingFrame" referent="RBX41482FCC5D954DC2931713FC62B303C1">
+									<Item class="ScrollingFrame" referent="RBXB91881FACD7A48CEA941A12FE9A7F885">
 										<Properties>
 											<bool name="Active">true</bool>
 											<Vector2 name="AnchorPoint">
@@ -3598,7 +3630,7 @@ end]]></ProtectedString>
 											<bool name="Visible">true</bool>
 											<int name="ZIndex">2</int>
 										</Properties>
-										<Item class="UIListLayout" referent="RBX31D13E763A7B41BBAC6B117F0F2C2C19">
+										<Item class="UIListLayout" referent="RBX0689562967D641F4B87B566E4D7CE90C">
 											<Properties>
 												<BinaryString name="AttributesSerialize"></BinaryString>
 												<token name="FillDirection">1</token>
@@ -3614,7 +3646,7 @@ end]]></ProtectedString>
 												<token name="VerticalAlignment">1</token>
 											</Properties>
 										</Item>
-										<Item class="UIPadding" referent="RBXF422B1B4CDA04463854F6947649877CE">
+										<Item class="UIPadding" referent="RBX6317065BA6E6403D9926212AC3929CF9">
 											<Properties>
 												<BinaryString name="AttributesSerialize"></BinaryString>
 												<string name="Name">UIPadding</string>
@@ -3639,7 +3671,7 @@ end]]></ProtectedString>
 											</Properties>
 										</Item>
 									</Item>
-									<Item class="Frame" referent="RBX86C23A1F0BE3446BA6C2F877C96C3EAC">
+									<Item class="Frame" referent="RBX3762523B89C84EC382C51C5B12E30038">
 										<Properties>
 											<bool name="Active">false</bool>
 											<Vector2 name="AnchorPoint">
@@ -3696,7 +3728,7 @@ end]]></ProtectedString>
 									</Item>
 								</Item>
 							</Item>
-							<Item class="Frame" referent="RBXF503673034F849488B58E12069CAF5AD">
+							<Item class="Frame" referent="RBXA4D0DBC579A442A198193A4EA1480429">
 								<Properties>
 									<bool name="Active">false</bool>
 									<Vector2 name="AnchorPoint">
@@ -3750,7 +3782,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="Frame" referent="RBX764F395A5E2D4EC8B63DCBE8F7280D06">
+								<Item class="Frame" referent="RBXA3AD8522296048E0BB189331393F2004">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -3805,7 +3837,7 @@ end]]></ProtectedString>
 										<int name="ZIndex">1</int>
 									</Properties>
 								</Item>
-								<Item class="TextButton" referent="RBXBF25E1F6A3E048AE9805A7A2B5E4F5F0">
+								<Item class="TextButton" referent="RBX7A5B1EA864EC4F7ABFB779E59AB2A1FD">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -3884,7 +3916,7 @@ end]]></ProtectedString>
 										<bool name="Visible">true</bool>
 										<int name="ZIndex">1</int>
 									</Properties>
-									<Item class="Frame" referent="RBX50233554CED64ABF8DD8A0810E7298E4">
+									<Item class="Frame" referent="RBX1E66BE3B369E42BDBA564B29E5E0D653">
 										<Properties>
 											<bool name="Active">false</bool>
 											<Vector2 name="AnchorPoint">
@@ -3940,7 +3972,7 @@ end]]></ProtectedString>
 										</Properties>
 									</Item>
 								</Item>
-								<Item class="StringValue" referent="RBX1C2B53093753457D88CF38DC0F3F67F1">
+								<Item class="StringValue" referent="RBX644E234EF2B04A21A36667061C20FAC5">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Link</string>
@@ -3950,7 +3982,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="Frame" referent="RBX5AC59F54059848918BCC5FD398153347">
+							<Item class="Frame" referent="RBX68D3659A26344E2EBBFBD81F94D5B381">
 								<Properties>
 									<bool name="Active">false</bool>
 									<Vector2 name="AnchorPoint">
@@ -4004,7 +4036,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="Frame" referent="RBXBE2FD5E451F34FD0B925ECDEB4DA250D">
+								<Item class="Frame" referent="RBX87090FB825344A559E1B22FA965AECFC">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -4058,7 +4090,7 @@ end]]></ProtectedString>
 										<bool name="Visible">true</bool>
 										<int name="ZIndex">2</int>
 									</Properties>
-									<Item class="TextLabel" referent="RBXE41446D6F6E6432B93588F915F995EC1">
+									<Item class="TextLabel" referent="RBX535228703A1344E0A5998523824ACF70">
 										<Properties>
 											<bool name="Active">false</bool>
 											<Vector2 name="AnchorPoint">
@@ -4135,7 +4167,7 @@ end]]></ProtectedString>
 										</Properties>
 									</Item>
 								</Item>
-								<Item class="Frame" referent="RBX5428E75119104CBE83717C983ECB812B">
+								<Item class="Frame" referent="RBX1301AAD504224DFC95B01BCBB2280C52">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -4190,7 +4222,7 @@ end]]></ProtectedString>
 										<int name="ZIndex">1</int>
 									</Properties>
 								</Item>
-								<Item class="ImageLabel" referent="RBXC2C1B633BFFC4336B125A2C0369FDA6A">
+								<Item class="ImageLabel" referent="RBXAF048C1680884640B271D71FAC64CF79">
 									<Properties>
 										<bool name="Active">true</bool>
 										<Vector2 name="AnchorPoint">
@@ -4277,7 +4309,7 @@ end]]></ProtectedString>
 										<int name="ZIndex">2</int>
 									</Properties>
 								</Item>
-								<Item class="ImageButton" referent="RBXF46342FE338F45EA9364F2C8AC07DB76">
+								<Item class="ImageButton" referent="RBX4331EA469808468C83037AD08E3C9BA9">
 									<Properties>
 										<bool name="Active">true</bool>
 										<Vector2 name="AnchorPoint">
@@ -4370,7 +4402,7 @@ end]]></ProtectedString>
 										<int name="ZIndex">3</int>
 									</Properties>
 								</Item>
-								<Item class="ImageLabel" referent="RBX144BA15AD6EB462BB279D4C22E6291F9">
+								<Item class="ImageLabel" referent="RBX8E428D44DEA449608067441043225AFC">
 									<Properties>
 										<bool name="Active">true</bool>
 										<Vector2 name="AnchorPoint">
@@ -4460,12 +4492,12 @@ end]]></ProtectedString>
 							</Item>
 						</Item>
 					</Item>
-					<Item class="ModuleScript" referent="RBX46B49074E8EC4E07AFA7801EE62FFF26">
+					<Item class="ModuleScript" referent="RBX82A63D4C0E8146B380942C0C8BAE5780">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<Content name="LinkedSource"><null></null></Content>
 							<string name="Name">MemberDetails</string>
-							<string name="ScriptGuid">{6C1BFC80-829B-44C2-8196-AA19C384443C}</string>
+							<string name="ScriptGuid">{9BB8788C-EAB5-4EFA-9BCF-82B13136491C}</string>
 							<ProtectedString name="Source"><![CDATA[local bin = script.Parent.Parent.Parent.Parent
 local plugin = bin.Parent
 local ThemeManager = require(bin.Modules.ThemeManager)
@@ -4593,6 +4625,8 @@ function page.Open(args)
 		local c = #Members.Canvas:GetChildren() - 2
 		
 		local instanceSecurity = DATA.Security
+		local threadSafety = DATA.ThreadSafety
+		
 		if instanceSecurity then
 			if type(instanceSecurity) == "table" then
 				--security is Read/Write based
@@ -4603,12 +4637,24 @@ function page.Open(args)
 				local writeseclabel = GenericLabel("Write Security: <b>" .. instanceSecurity.Write .. "</b>")
 				writeseclabel.LayoutOrder = c + 1
 				writeseclabel.Parent = Members.Canvas
+				
+				c+=2
 			elseif instanceSecurity ~= "None" then
 				--security is String
 				local seclabel = GenericLabel("Security: <b>" .. instanceSecurity .. "</b>")
 				seclabel.LayoutOrder = c
 				seclabel.Parent = Members.Canvas
+				
+				c+=1
 			end
+		end
+		
+		if threadSafety then
+			local seclabel = GenericLabel("Thread Safety: <b>" .. threadSafety .. "</b>")
+			seclabel.LayoutOrder = c
+			seclabel.Parent = Members.Canvas
+			
+			c+=1
 		end
 		
 		Gui.OnDevHubBanner.Link.Value = string.format(
@@ -4659,7 +4705,7 @@ end]]></ProtectedString>
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
-						<Item class="Frame" referent="RBX4F5893DD2F2D4D4CA9E99BE70BD62D5E">
+						<Item class="Frame" referent="RBXC0316FDE178A4D5F9524DCB571FD7FC0">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -4713,7 +4759,7 @@ end]]></ProtectedString>
 								<bool name="Visible">true</bool>
 								<int name="ZIndex">1</int>
 							</Properties>
-							<Item class="UIListLayout" referent="RBXD9A73DAB85A144E88F18143F7E531875">
+							<Item class="UIListLayout" referent="RBXAB825B5C882E4B68B935AC8F30E170B9">
 								<Properties>
 									<BinaryString name="AttributesSerialize"></BinaryString>
 									<token name="FillDirection">1</token>
@@ -4729,7 +4775,7 @@ end]]></ProtectedString>
 									<token name="VerticalAlignment">1</token>
 								</Properties>
 							</Item>
-							<Item class="Frame" referent="RBX700F78A599F94B1994BC034690D8DAD7">
+							<Item class="Frame" referent="RBX5E2DBFA2FDD14676863B71331CAF72C8">
 								<Properties>
 									<bool name="Active">false</bool>
 									<Vector2 name="AnchorPoint">
@@ -4783,7 +4829,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">2</int>
 								</Properties>
-								<Item class="Frame" referent="RBXF6E283291FD1494BA2B2D810D40C1164">
+								<Item class="Frame" referent="RBX461C5E1B90344CFFA2C88C81A121C54D">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -4837,7 +4883,7 @@ end]]></ProtectedString>
 										<bool name="Visible">true</bool>
 										<int name="ZIndex">1</int>
 									</Properties>
-									<Item class="UIListLayout" referent="RBX76DD86C4ACE8444A8F668C83AFA79DE3">
+									<Item class="UIListLayout" referent="RBXEDF83695ACEE4F2CAEB6080392521938">
 										<Properties>
 											<BinaryString name="AttributesSerialize"></BinaryString>
 											<token name="FillDirection">1</token>
@@ -4853,7 +4899,7 @@ end]]></ProtectedString>
 											<token name="VerticalAlignment">1</token>
 										</Properties>
 									</Item>
-									<Item class="UIPadding" referent="RBX0259ADF298CF485DBEEC29D8A0AFAA58">
+									<Item class="UIPadding" referent="RBXC97438CDDF5448D6A527E4A1114A860A">
 										<Properties>
 											<BinaryString name="AttributesSerialize"></BinaryString>
 											<string name="Name">UIPadding</string>
@@ -4879,7 +4925,7 @@ end]]></ProtectedString>
 									</Item>
 								</Item>
 							</Item>
-							<Item class="Frame" referent="RBXADA4E3DB49E7418399E178D826B89470">
+							<Item class="Frame" referent="RBX4B2B1F7F02894B478567B29EAAC21712">
 								<Properties>
 									<bool name="Active">false</bool>
 									<Vector2 name="AnchorPoint">
@@ -4933,7 +4979,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="Frame" referent="RBX4F816ECAF4FB48969F5D60DAD65545BD">
+								<Item class="Frame" referent="RBXEC4CB80514984171A84F78722DC4B204">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -4987,7 +5033,7 @@ end]]></ProtectedString>
 										<bool name="Visible">true</bool>
 										<int name="ZIndex">1</int>
 									</Properties>
-									<Item class="ScrollingFrame" referent="RBXA66F34C9E63F499580FFA0BBD0EF8DB5">
+									<Item class="ScrollingFrame" referent="RBXCC66E729095A49E8A1D6301C20EE90E8">
 										<Properties>
 											<bool name="Active">true</bool>
 											<Vector2 name="AnchorPoint">
@@ -5067,7 +5113,7 @@ end]]></ProtectedString>
 											<bool name="Visible">true</bool>
 											<int name="ZIndex">2</int>
 										</Properties>
-										<Item class="UIPadding" referent="RBXA6E1A02F68F44A519EC08157A5CFC6F2">
+										<Item class="UIPadding" referent="RBX0171CA5EB1884391B97E7CBB0FF91E5A">
 											<Properties>
 												<BinaryString name="AttributesSerialize"></BinaryString>
 												<string name="Name">UIPadding</string>
@@ -5091,7 +5137,7 @@ end]]></ProtectedString>
 												<BinaryString name="Tags"></BinaryString>
 											</Properties>
 										</Item>
-										<Item class="UIListLayout" referent="RBX72558FF6FB4541BE85387D39C3ADFF16">
+										<Item class="UIListLayout" referent="RBXCD55C74DB73449D193B911035F4EECF2">
 											<Properties>
 												<BinaryString name="AttributesSerialize"></BinaryString>
 												<token name="FillDirection">1</token>
@@ -5108,7 +5154,7 @@ end]]></ProtectedString>
 											</Properties>
 										</Item>
 									</Item>
-									<Item class="Frame" referent="RBXA1418C6978F44E689B353E436C173A46">
+									<Item class="Frame" referent="RBX27979DDD90D547429CB2C797CC06912E">
 										<Properties>
 											<bool name="Active">false</bool>
 											<Vector2 name="AnchorPoint">
@@ -5165,7 +5211,7 @@ end]]></ProtectedString>
 									</Item>
 								</Item>
 							</Item>
-							<Item class="Frame" referent="RBX53EDC68BF8424D5BAD0CE1D7789073D7">
+							<Item class="Frame" referent="RBX3647D6913CB740B8BA2182BA54C6CB0E">
 								<Properties>
 									<bool name="Active">false</bool>
 									<Vector2 name="AnchorPoint">
@@ -5219,7 +5265,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="Frame" referent="RBXDB100969C06449368DC00E6AB6AD3582">
+								<Item class="Frame" referent="RBXCA3015115219426690A45C7851B3D2E3">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -5274,7 +5320,7 @@ end]]></ProtectedString>
 										<int name="ZIndex">1</int>
 									</Properties>
 								</Item>
-								<Item class="TextButton" referent="RBX35F20BD8C8104E8683978B008F07C1C1">
+								<Item class="TextButton" referent="RBX224728F745C14C7F8C49F7CDA51751E1">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -5353,7 +5399,7 @@ end]]></ProtectedString>
 										<bool name="Visible">true</bool>
 										<int name="ZIndex">1</int>
 									</Properties>
-									<Item class="Frame" referent="RBX125F01F8ABD04C93AC4BE4F2E0C70BB4">
+									<Item class="Frame" referent="RBXFEB373A8BCF847A8865BCF7667936638">
 										<Properties>
 											<bool name="Active">false</bool>
 											<Vector2 name="AnchorPoint">
@@ -5409,7 +5455,7 @@ end]]></ProtectedString>
 										</Properties>
 									</Item>
 								</Item>
-								<Item class="StringValue" referent="RBX412391F0B0384A0EBBA230A066F9A9EE">
+								<Item class="StringValue" referent="RBXA1DB0A4AA3DA4646BE4BA11F9B16040B">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Link</string>
@@ -5419,7 +5465,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="Frame" referent="RBX84EB52B51383481083F05BBA77E8869B">
+							<Item class="Frame" referent="RBX1971A553780D4A058AAF4497C6769891">
 								<Properties>
 									<bool name="Active">false</bool>
 									<Vector2 name="AnchorPoint">
@@ -5473,7 +5519,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="Frame" referent="RBXB29D0CF600774F05B3B8588084D8B62D">
+								<Item class="Frame" referent="RBXF2BC0458227D4A5C835E765D7FAD01D7">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -5527,7 +5573,7 @@ end]]></ProtectedString>
 										<bool name="Visible">true</bool>
 										<int name="ZIndex">2</int>
 									</Properties>
-									<Item class="TextLabel" referent="RBX8AF9B84EE7AE49399C094045BB7F44AC">
+									<Item class="TextLabel" referent="RBXC9B3C7C933EC4A44A9BBFA6629DFD0BE">
 										<Properties>
 											<bool name="Active">false</bool>
 											<Vector2 name="AnchorPoint">
@@ -5604,7 +5650,7 @@ end]]></ProtectedString>
 										</Properties>
 									</Item>
 								</Item>
-								<Item class="Frame" referent="RBX3BA28419143B4B87BDCA04DF55414A08">
+								<Item class="Frame" referent="RBX72B4571035D647C1A6832C5F2FF15CA7">
 									<Properties>
 										<bool name="Active">false</bool>
 										<Vector2 name="AnchorPoint">
@@ -5659,7 +5705,7 @@ end]]></ProtectedString>
 										<int name="ZIndex">1</int>
 									</Properties>
 								</Item>
-								<Item class="ImageLabel" referent="RBX772C640691E04CECABD3ABB35F9D4128">
+								<Item class="ImageLabel" referent="RBX1FA9873C42544FD69B42789E27BD65C4">
 									<Properties>
 										<bool name="Active">true</bool>
 										<Vector2 name="AnchorPoint">
@@ -5746,7 +5792,7 @@ end]]></ProtectedString>
 										<int name="ZIndex">2</int>
 									</Properties>
 								</Item>
-								<Item class="ImageButton" referent="RBX57CD93C419454FAAB2EAE05A73BEE9BD">
+								<Item class="ImageButton" referent="RBX31994AF659654BFAA4AA96A0DB77AD23">
 									<Properties>
 										<bool name="Active">true</bool>
 										<Vector2 name="AnchorPoint">
@@ -5839,7 +5885,7 @@ end]]></ProtectedString>
 										<int name="ZIndex">3</int>
 									</Properties>
 								</Item>
-								<Item class="ImageLabel" referent="RBXD9979987C22B4285A8C670B922403D74">
+								<Item class="ImageLabel" referent="RBX4DE510105BAA41FFB014AB5201E07A4B">
 									<Properties>
 										<bool name="Active">true</bool>
 										<Vector2 name="AnchorPoint">
@@ -5931,114 +5977,12 @@ end]]></ProtectedString>
 					</Item>
 				</Item>
 			</Item>
-			<Item class="ModuleScript" referent="RBX1F2D8908AF2D420D891E2A5F20A55B89">
-				<Properties>
-					<BinaryString name="AttributesSerialize"></BinaryString>
-					<Content name="LinkedSource"><null></null></Content>
-					<string name="Name">ApiDump</string>
-					<string name="ScriptGuid">{19113BD9-8387-48F5-BC9F-7D5A5BAAC036}</string>
-					<ProtectedString name="Source"><![CDATA[--// A module that can be used to quickly API Reference Information
---// FilteredDev, Clonetrooper1019 (uses his API Dump)
---CONFIG SETTINGS
-local Config = {
-	Retries = 3, --how many times the fetcher should retry
-
-	RetryWaitFunction = function(n) --what should happen to the wait time every time the request fails
-		if n == 0 then return 1 end
-		return n * 2
-	end,
-
-	URLFormat = "https://raw.githubusercontent.com/CloneTrooper1019/Roblox-Client-Tracker/%s/API-Dump.json" --the format string of the API dump
-}
-
-local HttpService = game:GetService("HttpService")
-
-local DumpCache = {}
-
-local function Domify(a, key)
-	for i, v in ipairs(a) do
-		a[v[key]] = v
-		a[i] = nil
-	end
-end
-
-local VALID_NAMES = {
-	roblox = true,
-	["sitetest1.robloxlabs"] = true,
-	["sitetest2.robloxlabs"] = true
-}
-
-local function RequestDump(branch)
-	local DATA = DumpCache[branch]
-	if DATA then return DATA end
-
-	local URL = string.format(Config.URLFormat, branch)
-
-	local worked, DATA
-	local retryCounter = 0
-	local delayTime = 0
-
-	repeat
-		retryCounter += 1
-
-		if delayTime ~= 0 then
-			wait(delayTime)
-		end
-
-		delayTime = Config.RetryWaitFunction(delayTime)
-		worked, DATA = pcall(HttpService.GetAsync, HttpService, URL)
-	until worked or retryCounter == Config.Retries
-
-	if not worked then
-		error("Request Exhausted Retry Amount, Error: " .. DATA)
-	end
-
-	local RawData = HttpService:JSONDecode(DATA)
-
-	local map = {
-		Classes = {},
-		Enums = {},
-		Version = RawData.Version
-	} --turns data into a full hashmap
-
-	local classes, enums = {}, {}
-
-	for _, v in ipairs(RawData.Classes) do
-		local a = v
-
-		Domify(a.Members, "Name")
-		map.Classes[v.Name] = a
-	end
-
-	for _, v in ipairs(RawData.Enums) do
-		local a = v
-
-		Domify(a.Items, "Name")
-		map.Enums[v.Name] = a
-	end
-
-	DumpCache[branch] = map
-	return map
-end
-
-return function(branch)
-	if not VALID_NAMES[branch] then
-		error("Invalid Branch")
-	end
-
-	return RequestDump(branch)	
-end
-]]></ProtectedString>
-					<int64 name="SourceAssetId">-1</int64>
-					<BinaryString name="Tags"></BinaryString>
-				</Properties>
-			</Item>
-			<Item class="ModuleScript" referent="RBXD2B24AF1F3DB4339AF474C003BBA86D1">
+			<Item class="ModuleScript" referent="RBX17C6022FA0CE422BB17CF479F2CA7F55">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">ExtraObjectIcons</string>
-					<string name="ScriptGuid">{8FFEB17D-3B47-439C-ABD6-50E069BFD38E}</string>
+					<string name="ScriptGuid">{7DCE1972-4AE6-4A1C-86BC-B104EAEA04B2}</string>
 					<ProtectedString name="Source"><![CDATA[--adds the missing object icons lol
 local Sheet = {
 	Window = {
@@ -6161,12 +6105,12 @@ return f]]></ProtectedString>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX308AF76E4E16460AB0558056F0F74E68">
+			<Item class="ModuleScript" referent="RBX9EB02A87BE634C6884B47D08D33EB88F">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">Settings</string>
-					<string name="ScriptGuid">{521A0309-EC63-4092-8D25-AACE0178E652}</string>
+					<string name="ScriptGuid">{CA5EA728-1524-4420-8806-AB37D683B33C}</string>
 					<ProtectedString name="Source"><![CDATA[local bin = script.Parent.Parent
 local plugin = bin.Parent
 
@@ -6240,7 +6184,12 @@ local s = {
 		Yields = {
 			Foreground = Color3.fromRGB(255, 170, 0),
 			Background = Color3.fromRGB(255, 243, 205)
-		}
+		},
+		
+		InternalOnly = {
+			Foreground = Color3.fromRGB(253, 251, 172),
+			Background = Color3.fromRGB(0, 0, 0)
+		},
 	},
 	
 	InstanceLinkFormat = "en-us/api-reference/class/%s",
@@ -6289,12 +6238,12 @@ return s]]></ProtectedString>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX6B222387F72C47A6A130848534F3B5B9">
+			<Item class="ModuleScript" referent="RBX7D6189CAF1B84B8CBE73E295D8F2A723">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">History</string>
-					<string name="ScriptGuid">{2A2831A0-61FD-4D30-B995-C7C4273A8B33}</string>
+					<string name="ScriptGuid">{07F73C9C-79B4-422C-970B-9A060872EFCB}</string>
 					<ProtectedString name="Source"><![CDATA[local History = {}
 local historyTable = {}
 
@@ -6314,6 +6263,277 @@ return History]]></ProtectedString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBXBBC93B74F07849D78975482F4A027250">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">ApiDump</string>
+					<string name="ScriptGuid">{E1F294C3-561D-4E5E-B49F-CACDBFC284B7}</string>
+					<ProtectedString name="Source"><![CDATA[--// A module that can be used to quickly API Reference Information
+--// FilteredDev, Clonetrooper1019 (uses his API Dump)
+--// Version 2
+
+--CONFIG SETTINGS
+local Config = {
+	URLFormat = "https://raw.githubusercontent.com/CloneTrooper1019/Roblox-Client-Tracker/%s/API-Dump.json", --the format string of the API dump
+	PluginSettingBranch = "APIDumpTool-cache-%s"	
+}
+
+local cache = {}
+local HttpService = game:GetService("HttpService")
+local TryCatch = require(script.TryCatch)
+local plugin = script:FindFirstAncestorWhichIsA("Plugin")
+local StudioVersion = version()
+local MergeData = require(script.AddExtraMembers)
+local AddMembers = {"Classes", "Enums"}
+
+if not plugin then
+	error("APIDumpTool only works in plugins, sorry")
+end
+
+local function Domify(a, key)
+	for i, v in ipairs(a) do
+		a[v[key]] = v
+		a[i] = nil
+	end
+end
+
+local VALID_NAMES = {
+	roblox = true,
+	["sitetest1.robloxlabs"] = true,
+	["sitetest2.robloxlabs"] = true
+}
+
+local function pluginGetCache(key, useOldVersion)
+	local data = plugin:GetSetting(key)
+	if data then
+		if useOldVersion or data.ClientVersion == StudioVersion then
+			return data
+		end
+	end
+end
+
+local function RequestDump(branch)
+	local pkey = Config.PluginSettingBranch:format(branch)
+	local DATA, fallback
+
+	TryCatch(TryCatch.Exception()
+		:Try(function()
+			local cache = pluginGetCache(pkey)
+			if cache then
+				DATA = cache
+				fallback = true
+				return
+			end
+			
+			DATA = HttpService:RequestAsync{
+				Url = Config.URLFormat:format(branch),
+				Method = "GET"
+			}.Body
+		end)
+		
+		:Catch(function(err)
+			local cache = pluginGetCache(pkey, true)
+			if cache then
+				DATA = cache
+				fallback = true
+				return
+			end
+		end)
+	)
+	
+	if fallback then
+		return HttpService:JSONDecode(DATA)
+	end
+	
+	local RawData = HttpService:JSONDecode(DATA)
+
+	local map = {
+		Classes = {},
+		Enums = {},
+		Version = RawData.Version,
+		ClientVersion = StudioVersion
+	} --turns data into a full hashmap
+
+	local classes, enums = {}, {}
+
+	for _, v in ipairs(RawData.Classes) do
+		local a = v
+
+		Domify(a.Members, "Name")
+		map.Classes[v.Name] = a
+	end
+
+	for _, v in ipairs(RawData.Enums) do
+		local a = v
+
+		Domify(a.Items, "Name")
+		map.Enums[v.Name] = a
+	end
+	
+	for _, v in ipairs(AddMembers) do
+		local t = MergeData[v]
+		if t then
+			for name, data in pairs(t) do
+				map[v][name] = data
+			end
+		end
+	end
+
+	plugin:SetSetting(pkey, HttpService:JSONEncode(map))
+	return map
+end
+
+local apiDump = {}
+
+function apiDump:Get(branch)
+	if not VALID_NAMES[branch] then
+		error("Invalid Branch")
+	end
+
+	return RequestDump(branch)	
+end
+
+function apiDump:ClearLocalCache()
+	for k in pairs(VALID_NAMES) do
+		plugin:SetSetting(Config.PluginSettingBranch:format(k))
+	end
+end
+
+return apiDump
+]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="ModuleScript" referent="RBXF47CE6D90191497CA48D12A36E9E5FC6">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">TryCatch</string>
+						<string name="ScriptGuid">{30401BCE-59A1-43A5-9516-A96312B5F02F}</string>
+						<ProtectedString name="Source"><![CDATA[--// TryCatch.lua
+--// Custom Error Handler
+--// FilteredStudio
+
+local tc = {}
+tc.__index = tc
+
+function tc:Try(f)
+	self._exceptionTry = f
+	return self
+end
+
+function tc:Catch(f)
+	--Callback returns error
+	self._exceptionCatch = f
+	return self
+end
+
+local module = setmetatable({}, {
+	__call = function(self, exception)
+		local try = exception._exceptionTry
+		local catch = exception._exceptionCatch
+
+		if try then
+			local s, e = pcall(try)
+			if not s then
+				catch(e)
+			end
+		end
+	end}
+)
+
+module.Exception = function()
+	return setmetatable({}, tc)
+end
+
+return module]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="RBXC0DAF0F997F14D6B8849670005767662">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">AddExtraMembers</string>
+						<string name="ScriptGuid">{9AE1AEAF-C177-4635-B1E0-9E14FCE4D9F0}</string>
+						<ProtectedString name="Source"><![CDATA[return {
+	Classes = {
+		InternalSyncService = {
+			Members = {},
+			Name = "InternalSyncService",
+			Superclass = "Instance",
+			Tags = {
+				"NotCreatable",
+				"Service",
+				"InternalOnly",
+				"NotReplicated"
+			}
+		},
+		
+		InternalSyncItem = {
+			Members = {
+				AutoSync = {
+					MemberType = "Property",
+					Name = "AutoSync",
+					Security = "Unknown",
+					Tags = {"InternalOnly"},
+					ThreadSafety = "Unknown",
+					ValueType = {
+						Name = "bool"
+					}
+				},
+				
+				Enabled = {
+					MemberType = "Property",
+					Name = "Enabled",
+					Security = "Unknown",
+					Tags = {"InternalOnly"},
+					ThreadSafety = "Unknown",
+					ValueType = {
+						Name = "bool"
+					}
+				},
+				
+				Path = {
+					MemberType = "Property",
+					Name = "Path",
+					Security = "Unknown",
+					Tags = {"InternalOnly"},
+					ThreadSafety = "Unknown",
+					ValueType = {
+						Name = "string"
+					}
+				},
+				
+				Target = {
+					MemberType = "Property",
+					Name = "Target",
+					Security = "Unknown",
+					Tags = {"InternalOnly"},
+					ThreadSafety = "Unknown",
+					ValueType = {
+						Name = "string"
+					}
+				}
+			},
+			
+			Name = "InternalSyncItem",
+			Superclass = "Instance",
+			Tags = {
+				"InternalOnly"
+			}
+		}
+	},
+	
+	Enums = {}
+}]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
 			</Item>
 		</Item>
 	</Item>
